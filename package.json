@@ -1,0 +1,35 @@
+{
+  "name": "the-borrowers-app",
+  "version": "1.0.0",
+  "description": "## Description  Have extra books lying around and want some new material? Our site allows you to post your books and borrow from your local neighbors! You post your books and are able to search through books posted in your area. You then create a social contract with the other user swapping books. Once communication begins you’re ready to enjoy your new books after pick up!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystalWatkins/the-borrowers-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrystalWatkins/the-borrowers-app/issues"
+  },
+  "homepage": "https://github.com/CrystalWatkins/the-borrowers-app#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "bulma": "^0.9.1",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^5.10.14",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2"
+  }
+}
