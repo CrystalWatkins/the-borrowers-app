@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./RentmodalInfo.css";
 import API from "../../utils/API";
+
+
 class RentmodalInfo extends Component {
   book = this.props.book;
   rentBook(book) {
